@@ -1,0 +1,357 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Roboto, sans-serift';
+    margin: 0;
+}
+.contenedor{
+    font-size: 0.5em;
+    display: flex;
+    justify-content: right;
+    background-color:azure;
+    padding: 5px;
+}
+.contenedor button{
+background-color: rgb(212, 175, 55);
+
+}
+button{
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid rgb(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 10px rgb(0, 0, 0, 0.5);
+    color: white;
+    background-color: darkgoldenrod;
+}
+header .logo{
+    background-image: url("img/LogoDorado.png");
+    height: 2vh;
+    padding:  1px 1px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px; 
+    margin: 15px;
+    border-radius: 15px;
+    
+}
+.conteene{
+
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStQ_Pgp2MYS4XHW_o4XqxQnp_dvpFBHPEteg&usqp=CAU");
+  background-size: cover;
+  background: no-repeat;
+    padding: 12px;
+    text-align: center center;
+    padding:  100px 50px;
+}
+#arriba{
+    background-color: rebeccapurple;
+    padding: 12px;
+    text-align: center;
+    padding:  50px 5px;
+
+}
+#arriba h1{
+    color: white;
+    text-align: center;
+    margin-top: -20;
+    font-size: 2sem;
+}
+#arriba h2{
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    font-size: 2sem;
+}
+#arriba h3{
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    font-size: 2sem;
+}
+#publicidad{
+    background-color:beige;
+    padding: 12px;
+    text-align: center;
+    padding:  100px 100px;
+}
+#publicidad h1{
+    color: rgb(15, 2, 2);
+    text-align: center;
+    margin-top: 0;
+    font-size: 2sem;
+}
+#publicidad h2{
+    color: rgb(15, 2, 2);
+    text-align: center;
+    margin-top: 0;
+    font-size: 2sem;
+}
+#publicidad h3{
+    color: rgb(15, 2, 2);
+    text-align: center;
+    margin-top: 0;
+    font-size: 2sem;
+}
+#publicidad a{
+    font-size: 0.5em;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+#Casas-Libres{   
+    background-color: rgb(30, 30, 30);
+    color: white;
+    
+}
+
+#Casas-Libres .contene{
+    background-color: rgb(30, 30, 30);
+    padding: 12px;
+    text-align: center;
+    padding:  100px 100px;
+    
+
+}
+
+#Casas-Libres h2{
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#Casas-Libres p{
+    display: none;
+    
+    
+}
+
+#Casas-Libres .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+    
+
+}
+
+.carta:first-child{
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url("img/casa1.jpg");
+
+}
+
+.carta:nth-child(2){
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url("img/finca1.jpg");
+}
+
+.carta:nth-child(3){
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url("img/fincagirardot.jpg");
+
+}
+
+.carta:nth-child(4){
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url("img/apartamento1.jpg");
+
+}
+
+#caracteristicas .contenedor{
+    text-align: center;
+    padding: 250px 12px;
+    
+}
+
+#caracteriticas li{
+    margin: 16px 0px;
+    font-weight: bold;
+
+}
+
+#final{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    height: 88vh;
+
+}
+
+#final h2{
+    font-size: 9vw;
+}
+
+#final button{
+    font-size: 5vw;
+}
+
+footer{
+    background-color: rgb(230, 230, 230);
+}
+
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(100, 100, 100);
+    
+}
+
+footer .contenedor{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+@media (min-width: 720px){
+    header .logo{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    header .contenedor{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20xp;
+    }
+
+    #somos-proya .contenedor{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #somos-proya .texto{
+        width: 50%;
+        padding-left: 30px;
+        text-align: initial;
+        padding: 0xp 30xp;
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    #somos-proya h2{
+        margin-top: 0px;
+    }
+
+    #somos-proya .contenedor-img{
+        background-image:  url("img/LogoDorado.png");
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+    }
+
+    #Casas-Libres .propiedades{
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #Casas-Libres p{
+        display: block;
+        margin-bottom: 30px;
+        justify-content: center;
+    }
+
+    #Casas-Libres h3{
+        margin-top: 0;
+    }
+
+    #Casas-Libres .carta{
+        padding: 15px;
+        box-shadow: 2px 2px 10px rgb(0, 0, 0, 0.5);
+    }
+
+    #caracteristicas {
+        background-image: url("img/compracasa.jpg");
+        background-repeat: no-repeat;
+        background-size: 400px  300px;
+        background-position: calc(100vw - 500px) 100px;
+    }
+    #caracteristicas .contenedor{
+        text-align: initial;
+    }
+    
+    #caracteristicas ul {
+        margin-left: 100px;
+
+    }
+
+    #final h2{
+        font-size: 5em;
+    }
+
+    #final button{
+        font-size: 2em;
+    }
+
+    #final .contenedor{
+        justify-content: flex-end;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    #caracteristicas{
+        background-position-x: calc( 100vw - 800px);
+    }
+    
+
+}   
+.ultimo{
+    background-color: rebeccapurple;
+    padding: 12px;
+    text-align: center center;
+    padding:  100px 50px;
+}
